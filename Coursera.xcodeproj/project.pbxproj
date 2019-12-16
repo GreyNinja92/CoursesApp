@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F05FE8F2316F0E400BD094F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05FE8E2316F0E400BD094F /* Settings.swift */; };
+		5F05FE91231704D000BD094F /* CertificateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05FE90231704D000BD094F /* CertificateRow.swift */; };
 		5F632EA322E792BF0004144D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F632EA222E792BF0004144D /* AppDelegate.swift */; };
 		5F632EA522E792BF0004144D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F632EA422E792BF0004144D /* SceneDelegate.swift */; };
 		5F632EA722E792BF0004144D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F632EA622E792BF0004144D /* ContentView.swift */; };
 		5F632EA922E792C40004144D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F632EA822E792C40004144D /* Assets.xcassets */; };
 		5F632EAC22E792C40004144D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F632EAB22E792C40004144D /* Preview Assets.xcassets */; };
 		5F632EAF22E792C40004144D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F632EAD22E792C40004144D /* LaunchScreen.storyboard */; };
+		5F84B4DC2314247B00A2ACAD /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B4DB2314247B00A2ACAD /* UpdateDetail.swift */; };
+		5F84B4DE23142E1500A2ACAD /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B4DD23142E1500A2ACAD /* UpdateStore.swift */; };
+		5FC6F78C2319AE5000B94065 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F78B2319AE5000B94065 /* Home.swift */; };
+		5FC6F78E2319AE7E00B94065 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F78D2319AE7E00B94065 /* HomeList.swift */; };
+		5FC73C2A231BA27900252AC3 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC73C29231BA27900252AC3 /* BlurView.swift */; };
+		5FF27083231BA2B900B3839F /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF27082231BA2B900B3839F /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F05FE8E2316F0E400BD094F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5F05FE90231704D000BD094F /* CertificateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateRow.swift; sourceTree = "<group>"; };
+		5F1CEC0222E7BE9E00170C9F /* Coursera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coursera.entitlements; sourceTree = "<group>"; };
 		5F632E9F22E792BF0004144D /* Coursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F632EA222E792BF0004144D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F632EA422E792BF0004144D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,12 @@
 		5F632EAB22E792C40004144D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F632EAE22E792C40004144D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F632EB022E792C40004144D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F84B4DB2314247B00A2ACAD /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		5F84B4DD23142E1500A2ACAD /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		5FC6F78B2319AE5000B94065 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5FC6F78D2319AE7E00B94065 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		5FC73C29231BA27900252AC3 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		5FF27082231BA2B900B3839F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +73,18 @@
 		5F632EA122E792BF0004144D /* Coursera */ = {
 			isa = PBXGroup;
 			children = (
+				5F1CEC0222E7BE9E00170C9F /* Coursera.entitlements */,
 				5F632EA222E792BF0004144D /* AppDelegate.swift */,
 				5F632EA422E792BF0004144D /* SceneDelegate.swift */,
 				5F632EA622E792BF0004144D /* ContentView.swift */,
+				5F05FE90231704D000BD094F /* CertificateRow.swift */,
+				5FC73C29231BA27900252AC3 /* BlurView.swift */,
+				5FC6F78D2319AE7E00B94065 /* HomeList.swift */,
+				5F84B4DB2314247B00A2ACAD /* UpdateDetail.swift */,
+				5FF27082231BA2B900B3839F /* UpdateList.swift */,
+				5F84B4DD23142E1500A2ACAD /* UpdateStore.swift */,
+				5F05FE8E2316F0E400BD094F /* Settings.swift */,
+				5FC6F78B2319AE5000B94065 /* Home.swift */,
 				5F632EA822E792C40004144D /* Assets.xcassets */,
 				5F632EAD22E792C40004144D /* LaunchScreen.storyboard */,
 				5F632EB022E792C40004144D /* Info.plist */,
@@ -146,8 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F84B4DE23142E1500A2ACAD /* UpdateStore.swift in Sources */,
+				5F05FE91231704D000BD094F /* CertificateRow.swift in Sources */,
+				5FC6F78C2319AE5000B94065 /* Home.swift in Sources */,
 				5F632EA322E792BF0004144D /* AppDelegate.swift in Sources */,
+				5FC73C2A231BA27900252AC3 /* BlurView.swift in Sources */,
+				5FF27083231BA2B900B3839F /* UpdateList.swift in Sources */,
+				5F05FE8F2316F0E400BD094F /* Settings.swift in Sources */,
+				5F84B4DC2314247B00A2ACAD /* UpdateDetail.swift in Sources */,
 				5F632EA522E792BF0004144D /* SceneDelegate.swift in Sources */,
+				5FC6F78E2319AE7E00B94065 /* HomeList.swift in Sources */,
 				5F632EA722E792BF0004144D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,17 +318,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coursera/Coursera.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Coursera/Preview\\ Content";
 				DEVELOPMENT_TEAM = QRNKGGJ748;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Coursera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.KhatodSaksham.Coursera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +342,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coursera/Coursera.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Coursera/Preview\\ Content";
 				DEVELOPMENT_TEAM = QRNKGGJ748;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Coursera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.KhatodSaksham.Coursera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
